@@ -1,6 +1,7 @@
 console.log('sup')
 
 document.addEventListener("DOMContentLoaded", function(event) {
+    console.log('scripts loaded!')
     $(".root-container").load("assets/pages/main.html");
     $('#main').on('click', () => {
         $(".root-container").load("assets/pages/main.html");
