@@ -51,6 +51,9 @@ h1, h2, h3, h4, h5, h6, p, caption {
   display: flex;
   flex-direction: row; }
 
+.content-container {
+  max-width: 728px; }
+
 .image-moderate {
   height: 300px;
   width: auto; }
