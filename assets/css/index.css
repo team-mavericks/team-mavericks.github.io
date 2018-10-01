@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   min-height: 100vh; }
 
@@ -34,13 +33,12 @@ body {
       text-decoration: none;
       font-size: 2.5rem;
       font-weight: 600; }
-      .the-hero .hero__container .hero__nav li + li ::before {
-        font-size: .8em;
-        margin: 0 30px;
-        font-weight: 700;
-        display: inline;
-        content: '＊'; }
       .the-hero .hero__container .hero__nav a {
         color: black; }
         .the-hero .hero__container .hero__nav a:hover {
           color: white; }
+      .the-hero .hero__container .hero__nav .hero__nav--divider {
+        margin: 0 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 800; }
