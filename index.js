@@ -13,7 +13,7 @@ const loadRoutes = () => {
     console.log('routing scripts loaded!')
     $('#main').on('click', () => {
         $(".root-container").load("assets/pages/main.html");
-        setTimeout(loadRoutes, 1000)
+        setTimeout(loadRoutes, 100)
         event.preventDefault();
         console.log('main')
     });
