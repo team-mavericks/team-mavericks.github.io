@@ -3,7 +3,7 @@ console.log('sup')
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log('document ready scripts loaded!')
     $(".root-container").load("assets/pages/main.html");
-    $(".root-container").addEventListener("DOMContentLoaded", (event) => {
+    $(".root-container").ready(() => {
         console.log('routing scripts loaded!')
         $('#main').on('click', () => {
             $(".root-container").load("assets/pages/main.html");
@@ -23,7 +23,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
         });
     })
 });
-
-const test = () => {
-    console.log('test')
-}
