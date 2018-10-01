@@ -35,10 +35,11 @@ h1, h2, h3, h4, h5, h6, p, caption {
       font-family: 'Source Sans Pro', sans-serif;
       text-decoration: none;
       font-size: 2.5rem;
-      font-weight: 600; }
-      .the-hero .hero__container .hero__nav a {
-        color: black; }
-        .the-hero .hero__container .hero__nav a:hover {
+      font-weight: 500; }
+      .the-hero .hero__container .hero__nav .hero__nav--link {
+        color: black;
+        cursor: pointer; }
+        .the-hero .hero__container .hero__nav .hero__nav--link:hover {
           color: white; }
       .the-hero .hero__container .hero__nav .hero__nav--divider {
         margin: 0 30px;
