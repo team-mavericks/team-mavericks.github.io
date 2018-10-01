@@ -1,6 +1,9 @@
 body {
   min-height: 100vh; }
 
+h1, h2, h3, h4, h5, h6, p, caption {
+  font-family: 'Source Sans Pro', sans-serif; }
+
 .the-hero {
   background-color: #efda5b;
   border-bottom: 10px solid #f4e58c;
@@ -42,3 +45,16 @@ body {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 2.5rem;
         font-weight: 800; }
+
+.the-content {
+  display: flex;
+  flex-direction: row; }
+
+.image-moderate {
+  height: 300px;
+  width: auto; }
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
