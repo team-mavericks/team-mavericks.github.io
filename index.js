@@ -3,10 +3,17 @@ console.log('sup')
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log('document ready scripts loaded!')
     $(".root-container").load("assets/pages/main.html");
+    loadRoutes()
+    
+});
+
+
+const loadRoutes = () => {
     $(".root-container").ready(() => {
         console.log('routing scripts loaded!')
         $('#main').on('click', () => {
             $(".root-container").load("assets/pages/main.html");
+            loadRoutes();
             event.preventDefault();
             console.log('main')
         });
@@ -22,4 +29,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
             console.log('portfolio')
         });
     })
-});
+}
