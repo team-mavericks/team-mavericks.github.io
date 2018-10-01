@@ -4,6 +4,9 @@ body {
 h1, h2, h3, h4, h5, h6, p, caption {
   font-family: 'Source Sans Pro', sans-serif; }
 
+p {
+  margin: 0px 0 20px !important; }
+
 .the-hero {
   background-color: #efda5b;
   border-bottom: 10px solid #f4e58c;
