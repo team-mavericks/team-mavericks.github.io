@@ -8,7 +8,7 @@ body {
   flex-flow: nowrap column;
   align-items: center;
   justify-content: center;
-  height: 240px; }
+  height: 180px; }
   .the-hero .hero__container {
     display: flex;
     flex-direction: column;

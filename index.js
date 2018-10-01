@@ -8,12 +8,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     })
 });
 
-
 const loadRoutes = () => {
     console.log('routing scripts loaded!')
     $('#main').on('click', () => {
         $(".root-container").load("assets/pages/main.html");
-        setTimeout(loadRoutes, 100)
+        setTimeout(loadRoutes, 200)
         event.preventDefault();
         console.log('main')
     });
