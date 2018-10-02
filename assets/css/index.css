@@ -55,7 +55,8 @@ p {
   flex-direction: row; }
 
 .content-container {
-  max-width: 728px; }
+  max-width: 728px;
+  width: 100%; }
 
 .image-moderate {
   height: 300px;
