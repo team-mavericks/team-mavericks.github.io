@@ -1,0 +1,224 @@
+
+body {
+    background-color: #efefef !important;
+}
+
+.wrapper {
+    background-color: inherit;
+    height: 100% !important;
+    /* min-height: 100vh !important; */
+}
+
+.fucking-hidden {
+    display: none !important;
+}
+
+.main-panel {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.flex-branding {
+    display: flex !important;
+}
+
+.brand-spacing {
+    width: 15px;
+}
+
+.logo-container-haha {
+    height: 100%;
+    width: 100px;
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-haha {
+    height: 80%;
+    object-fit: contain;
+}
+
+.branding-text {
+    position: fixed;
+    top: 8px;
+    left: 230px;
+}
+
+.branding-text h3 {
+    font-weight: 800;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.navbar {
+    background-color: #dcdcdc !important;
+}
+
+.arduino-nav {
+    background-color: #47b19e !important;
+}
+
+.nav-left {
+    align-self: flex-start !important;
+    margin-left: 28px !important;
+    justify-content: flex-start !important;
+}
+
+.content-main {
+    flex-grow: 1 !important;
+    display: flex !important;
+    min-height: calc(100vh - 180px);
+    background-color: #efefef;
+}
+
+.content-inner {
+    /* padding: 25px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-pills {
+    margin-top: 15px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.tab-content {
+    flex-grow: 1;
+    margin: 15px 0 !important;
+}
+
+.card-content {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.content-title-walao {
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.block-text-highlighting {
+    border-radius: 3px;
+    background-color: #545454;
+    padding: 5px 10px;
+
+}
+
+.footer {
+    padding: 0 !important;
+}
+
+.chart-wrapper {
+    padding: 20px;
+}
+
+.no-top-bottom-margin {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.put-in-middle-of-chart {
+    position: absolute;
+    font-size: 48px !important;
+    top: calc(50% - 22px);
+    left: calc(50% - 24px);
+}
+
+.flex-space-between {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.highlighted-answer {
+    border-radius: 3px;
+    background-color: #545454;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.card-stats {
+    margin: 5px 0 !important;
+}
+
+.table>tbody#the-actual-log>tr>td {
+    padding: 4px 8px !important;
+}
+
+.card-lights {
+    height: 250px;
+}
+
+.lights-icon {
+    font-size: 72px !important;
+    top: calc(50% - 30px);
+    left: calc(50% - 36px);
+}
+
+.display-none {
+    color: #ffffff00 !important;
+}
+
+
+.secret-button {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 600px;
+    right: -100px;
+}
+
+.floorplan-container {
+    height: 80vh;
+    width: auto;
+    position: relative;
+}
+
+.floorplan-image { 
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lighting-grid {
+    width: 60% !important;
+    height: 80% !important;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.lightbulb {
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.lightson {
+    box-shadow: 0 0 80px 10px yellow;
+    
+}
+
+.lightsoff {
+    box-shadow: none;
+    background-color: gray;
+}
