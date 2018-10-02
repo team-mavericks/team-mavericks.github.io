@@ -169,29 +169,31 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
 
     setInterval(()=> {
-        console.log('togglelights')
-        toggleLights('lb2')
-    }, 1000)
+        console.log('lightwaaaaaaaaave')
+        lightWave()
+    }, 10000)
     
 
 });
 
-// const lightWave = () => {
-//     let i = 1
-//     setInterval(()=> {
-//         if (i < 21) {
-//             let id = 'lb' + i;
-//             toggleLights(id)
-//         } else {
+const lightWave = () => {
+    let i = 1
+    const lightWaveAux = () => {
+        if (i < 21) {
+            let id = 'lb' + i;
+            toggleLights(id)
+        } else {
+            clearMe()
+            console.log('cleared!')
+        }
+        i += 1
+    }
+    const clearMe = () => {
+        clearInterval(damnlights)
+    }
+    const damnlights = setInterval(lightWaveAux, 300)
+}
 
-//         }
-//         i += 1
-//     }, 1000)
-    
-        
-        
-    
-// }
 
 
 const toggleLights = (id='none') => {
